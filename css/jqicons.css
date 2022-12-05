@@ -1,0 +1,35 @@
+#icons {
+	margin: 0;
+	padding: 0;
+}
+#icons li {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+}
+#icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+.botones{
+	color:#FFF;
+	border:none;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.frmsDivs{
+	border:2px solid #CCC;
+	height:200px;
+	/*visibility:visible;*/
+}
+.frmsDivsH{
+	visibility:hidden;
+}
+fieldset{
+	border:2px double #CCC;
+}

@@ -1,0 +1,106 @@
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:#DCDAED;
+}
+#titulo{
+	text-align:center;
+}
+#contenedor{
+	margin:auto;
+/*	background:url(../img/fondo_clave.jpg) repeat-x;*/
+	border:0px dotted #FC0;
+}
+#contenedorLogin{
+	margin:auto;
+	margin-top:8%;
+	margin-bottom:8%;
+	background:url(../img/login.png) no-repeat;
+	width:220px;
+	height:232px;
+	box-shadow:0 0 5px 5px 0.1;
+/*	border:1px dotted #000;*/
+}
+#formulario{
+	/*border:1px dotted #000;*/
+}
+#olvidoPSW{
+	float:right;
+	margin:0;
+	width:200px;
+	height:30px;
+/*	border:1px dotted #000;*/
+}
+#olvidoPSW p{
+	margin:0;
+	margin-top:190px;
+	margin-left:0px;
+	text-align:left;
+	font-size:12px;
+	color:#FFF;
+}
+#olvidoPSW p a{
+	text-decoration:none;
+	color:#FFF;
+}
+#olvidoPSW p a:hover{
+	text-decoration:underline;
+	color:#CCC;
+}
+#nombreUSR{
+	float:left;
+	margin-top:-2px;
+	margin-left:50px;
+	width:145px;
+	/*border:1px dotted #000;*/
+}
+#nombreUSR input{
+	width:145px;
+	height:30px;
+	background:none;
+	border:none;
+	font-size:18px;
+	font-weight:bold;
+	color:#47484a;
+}
+#claveUSE{
+	float:left;
+	margin-top:25px;
+	margin-left:50px;
+	width:145px;
+/*	border:1px dotted #000;*/
+}
+#claveUSE input{
+	width:145px;
+	height:30px;
+	background:none;
+	border:none;
+	font-size:18px;
+	font-weight:bold;
+	color:#47484a;
+}
+#botonEntrar{
+	float:left;
+	margin-top:13px;
+	margin-left:18px;
+	/*border:1px dotted #000;*/
+}
+#botonEntrar input{
+	width:73px;
+	height:31px;
+	background:none;
+	border:none;
+	cursor:pointer;
+}
+#botonRegistrar{
+	float:left;
+	margin-top:13px;
+	margin-left:8px;
+	/*border:1px dotted #000;*/
+}
+#botonRegistrar input{
+	width:101px;
+	height:31px;
+	background:none;
+	border:none;
+	cursor:pointer;
+}
